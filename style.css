@@ -1,3 +1,41 @@
+body{
+    font-family: roboto,arial;
+}
 img{
     width: 300px;
+}
+main{
+    width: 300px;
+    background-color: lightpink;
+}
+#thumbnail{
+    display: inline-block;
+}
+#video-info{
+    background-color: lightblue;
+    width: 250px;
+    display: inline-block;
+}
+#profile-picture{
+    display: inline-block;
+    vertical-align: top;
+}
+#profile-img{
+   
+    background-color: lightgreen;
+    width: 40px;
+    border-radius: 50%;
+}
+#video-desc{
+font-size: 14px;
+font-weight: 500;
+}
+#video-author{
+    font-size: 12px;
+}
+#video-stats{
+    font-size: 12px;
+}
+#card{
+    display: inline-block;
 }
