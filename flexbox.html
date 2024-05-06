@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBOxPractice</title>
-
+<style>
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    #cards{
+       
+        height: 200px;
+        background-color: rgb(241, 173, 25);
+    }
+</style>
 </head>
 <body>
-    <div style="display: flex;
-    flex-direction: row;
-    " 
-        >
-         <div style="background-color: lightblue;
-            ">div1</div>
-    <div style="background-color: lightpink; flex: 1;">div2 <p>text</p></div>
-</div>
+  <div id="grid">
+      <div id="cards">hello there</div>
+      <div id="cards">hello there</div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+  </div>
    
 </body>
 </html>
